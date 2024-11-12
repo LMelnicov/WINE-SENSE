@@ -1,0 +1,103 @@
+.padre{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-top: 40px;
+}
+
+.tamano-imagen{
+  width: 90%;
+  height: 450px;
+  margin-top: 70px;
+  margin-left: 90px;
+}
+
+.estilo-profile{
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cajatexto{
+  background-color: #cccccc40;
+  border-color: slategray;
+  border-radius: 30px;
+  width: 100%;
+  padding: 15px;
+  border-width: 0px;
+  margin-bottom: 20px ;
+}
+.cajatexto:focus{
+  outline: 1px solid cornflowerblue;
+  box-shadow: 0 0 10px cornflowerblue;
+}
+
+.btnform{
+  background-color: #0D6EFD;
+  border-color: slategray;
+  border-radius: 30px;
+  width: 100%;
+  padding: 15px;
+  border-width: 0px;
+  margin-bottom: 20px ;
+  color: white;
+}
+
+.texto{
+  font-size: 16px;
+  color: slategray;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+.btnswitch{
+  background-color: darkblue;
+  border-radius: 30px;
+  padding: 10px;
+  border-width: 0px;
+  color: white;
+  font-size: 14px;
+  margin-left: 6px;
+}
+
+.titulo{
+  height: 150px;
+}
+
+.boton{
+  background-color: #941635;
+  border-color: rgb(255, 255, 255);
+}
+.boton:hover{
+background-color: rgb(68, 2, 57);
+border-color: rgb(72, 0, 75);
+}
+
+.botoninicio{
+  background-color: #941635;
+}
+.botonregis{
+  background-color: #8a3257;
+}
+
+.menu{
+  background-color: #7c0e29;
+}
+
+/* Quitar el borde y sombra en los eventos del calendario */
+.rbc-event {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important; /* Asegura que no haya sombras */
+  background-color: transparent !important; /* Evita que se muestre color de fondo al seleccionar */
+}
+
+
+
+
+
+
+
+
